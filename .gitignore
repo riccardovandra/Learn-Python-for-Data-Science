@@ -1,2 +1,4 @@
 .vscode
 Pipfile
+Twitter Sentiment Analysis/config.py
+__pycache__

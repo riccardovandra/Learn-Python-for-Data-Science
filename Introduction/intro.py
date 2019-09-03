@@ -17,7 +17,7 @@ test = [[190,70,43],[168,55,39],[170,95,42],[199,88,44],[188,60,42],[190,59,40],
 
 clf_tree =  DecisionTreeClassifier() #create Decision Tree classifier object
 clf_tree = clf_tree.fit(X,Y) #train the Decision Tree classifier
-clf_rf = RandomForestClassifier(n_estimators=2) #create Random Forest classifier object
+clf_rf = RandomForestClassifier() #create Random Forest classifier object
 clf_rf = clf_rf.fit(X,Y) #train the Random Forest classifier
 clf_gnb = GaussianNB() #create Naive Bayes classifier
 clf_gnb = clf_gnb.fit(X,Y) #train Naive Bayes classifier
