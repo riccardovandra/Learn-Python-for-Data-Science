@@ -34,10 +34,10 @@ prediction_neigh = clf_neigh.predict(test)
 
 ### ACCURACY ### - find accuracy score of different classifiers
 
-accuracy_tree= accuracy_score(Y,prediction_tree)
-accuracy_rf = accuracy_score(Y,prediction_rf)
-accuracy_gnb = accuracy_score(Y,prediction_gnb)
-accuracy_neigh = accuracy_score(Y,prediction_neigh)
+accuracy_tree= accuracy_score(Y,prediction_tree)*100
+accuracy_rf = accuracy_score(Y,prediction_rf)*100
+accuracy_gnb = accuracy_score(Y,prediction_gnb)*100
+accuracy_neigh = accuracy_score(Y,prediction_neigh)*100
 
 ### RESULTS ### - print results and accuracy
 
