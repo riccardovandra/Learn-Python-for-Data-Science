@@ -1,6 +1,7 @@
 .vscode
+__pycache__
+.DS_Store
 Pipfile
 Twitter Sentiment Analysis/config.py
-__pycache__
-Twitter Sentiment Analysis/.DS_Store
 Twitter Sentiment Analysis/ML_sentiment_Analysis.csv
+Stock Prediction/config.py
